@@ -39,6 +39,7 @@ public class Program {
                     captured.add(capturedPiece);
                 }
             }
+
             catch (InputMismatchException e) {
                 System.out.println(e.getMessage());
                 sc.nextLine();
